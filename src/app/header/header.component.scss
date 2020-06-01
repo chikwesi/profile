@@ -1,0 +1,27 @@
+// :host{
+//   position: absolute;
+//   z-index: 100;
+
+// }
+.sidenav {
+  min-width: 10px;
+  height: 10px;
+  border-right: solid 2px black;
+  height: 100vh;
+  width: 100%;
+  padding: 0.5em 3em;
+  padding: 0.5em 3em;
+  // ul{
+  //     //display: none;
+  //     list-style: none;
+  //     padding-left: 0px;
+  //     li {
+  //         display: inline;
+  //     }
+  // }
+  &:hover {
+    ul {
+      display: block;
+    }
+  }
+}
